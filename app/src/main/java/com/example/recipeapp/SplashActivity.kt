@@ -21,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
 
         installSplashScreen()
 
-        setTextPreference("open-api-key", "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")
+        setTextPreference("open-api-key", "fake-key")
 
         binding = ActivitySplashBinding.inflate(layoutInflater)
 
