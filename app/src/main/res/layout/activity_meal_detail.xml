@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:onClick="onBackButtonClick"/>
+
+        <Button
+            android:id="@+id/favouriteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="15dp"
+            android:onClick="onBackButtonClick"
+            android:text="@string/add_favourite" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mealImageViewCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/backButton"
+            android:layout_marginTop="8dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#000000">
+
+            <ImageView
+                android:id="@+id/mealImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/mealNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mealImageViewCard"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/instructionsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mealNameTextView"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp" />
+
+        <ListView
+            android:id="@+id/ingredientsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/instructionsTextView"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/textChatInput"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/ingredientsListView"/>
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/send_to_ai"
+            android:layout_below="@id/textChatInput"/>
+
+    </RelativeLayout>
+</ScrollView>

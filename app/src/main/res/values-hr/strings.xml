@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="action_settings">Postavke</string>
+    <string name="next">Sljedece</string>
+    <string name="previous">Prethodno</string>
+    <string name="search_recipe">Potrazi recepte</string>
+    <string name="search_recipes_label">Trazi recepte</string>
+    <string name="exit_setting">Izlaz</string>
+    <string name="random_food_fact">Slucajna cinjenica o hrani</string>
+    <string name="back">Nazad</string>
+    <string name="add_favourite">Dodaj u favorite</string>
+    <string name="remove_favourite">Makni iz favorita</string>
+    <string name="loading">Ucitavanje...</string>
+    <string name="set_alarm">Postavi alarm</string>
+    <string name="send_to_ai">Posalji umjetnoj inteligenciji</string>
+</resources>

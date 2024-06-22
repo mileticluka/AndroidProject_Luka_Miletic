@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Base.Theme.RecipeApp" parent="Theme.AppCompat.NoActionBar">
+        <item name = "backgroundColor" type="color">@android:color/background_dark</item>
+    </style>
+
+    <style name="Theme.RecipeApp" parent="Base.Theme.RecipeApp" />
+
+    <style name="Theme.RecipeApp.SplashTheme" parent="Theme.SplashScreen">
+        <item name = "windowSplashScreenBackground" type="color">@android:color/background_dark</item>
+        <item name = "windowSplashScreenAnimatedIcon" type="drawable">@drawable/ic_launcher_foreground</item>
+        <item name = "postSplashScreenTheme" type="style">@style/Theme.RecipeApp</item>
+    </style>
+
+</resources>
+
