@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recipeapp.MealDetailActivity
+import com.example.recipeapp.activity.MealDetailActivity
 import com.example.recipeapp.R
 import com.example.recipeapp.models.FavouriteMeal
 import com.squareup.picasso.Picasso

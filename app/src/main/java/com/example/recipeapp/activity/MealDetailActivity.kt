@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package com.example.recipeapp.activity
 
 import android.content.ContentValues
 import android.os.Bundle
@@ -10,6 +10,7 @@ import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.recipeapp.R
 import com.example.recipeapp.api.MealAPIService
 import com.example.recipeapp.api.OpenAiService
 import com.example.recipeapp.dao.FAVOURITES_URI

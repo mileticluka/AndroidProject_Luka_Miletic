@@ -1,4 +1,4 @@
-
+package com.example.recipeapp.adapter
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater

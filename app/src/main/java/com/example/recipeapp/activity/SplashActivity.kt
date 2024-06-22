@@ -1,8 +1,9 @@
-package com.example.recipeapp
+package com.example.recipeapp.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.recipeapp.R
 import com.example.recipeapp.databinding.ActivitySplashBinding
 import com.example.recipeapp.framework.applyAnimation
 import com.example.recipeapp.framework.callDelayed

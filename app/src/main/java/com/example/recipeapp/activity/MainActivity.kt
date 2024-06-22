@@ -1,6 +1,5 @@
-package com.example.recipeapp
+package com.example.recipeapp.activity
 
-import MealAdapter
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -12,6 +11,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recipeapp.R
+import com.example.recipeapp.adapter.MealAdapter
 import com.example.recipeapp.api.MealAPIService
 import com.example.recipeapp.api.OpenAiService
 import com.example.recipeapp.databinding.ActivityMainBinding

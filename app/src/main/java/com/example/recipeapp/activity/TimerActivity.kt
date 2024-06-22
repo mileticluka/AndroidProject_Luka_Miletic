@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package com.example.recipeapp.activity
 
 import android.app.AlarmManager
 import android.app.PendingIntent
@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.recipeapp.AlarmReceiver
+import com.example.recipeapp.R
 
 
 class TimerActivity : AppCompatActivity() {

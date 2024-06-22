@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package com.example.recipeapp.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recipeapp.R
 import com.example.recipeapp.adapter.FavouritesListAdapter
 import com.example.recipeapp.dao.FAVOURITES_URI
 import com.example.recipeapp.models.FavouriteMeal
